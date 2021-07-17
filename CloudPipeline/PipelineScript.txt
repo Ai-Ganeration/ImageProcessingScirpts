@@ -7,3 +7,5 @@ sudo systemctl enable xrdp
 echo xfce4-session >~/.xsession
 
 sudo service xrdp restart
+
+az vm open-port --resource-group AnimeGenerator --name AnimeGeneratorVM1 --port 3389
